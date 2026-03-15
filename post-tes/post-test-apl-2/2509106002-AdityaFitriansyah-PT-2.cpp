@@ -139,7 +139,7 @@ int main(){
                 cout << "Isi aspirasi baru : ";
                 getline(cin, aspirasi[nomor-1].isiAspirasi);
 
-                cout << "Status (Diajukan/Diproses/Selesai) : ";
+                cout << "Status (diajukan/diproses/selesai) : ";
                 getline(cin, aspirasi[nomor-1].status);
 
                 cout << "Data berhasil diubah." << endl;
